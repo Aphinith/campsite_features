@@ -29,7 +29,7 @@ module.exports = {
         },
         exclude: '/node_modules'
       },
-      //This converts our .css into JS
+      // This converts our .css into JS
       {
         test: /\.scss$/,
         use: [{
@@ -39,7 +39,9 @@ module.exports = {
         }, {
           loader: 'sass-loader'
         }]
-      }, {
+      }, 
+      // This allows us to import image files into our components
+      {
         test: /\.(png|jpg|gif)$/, 
         use: [{
           loader: "file-loader"
