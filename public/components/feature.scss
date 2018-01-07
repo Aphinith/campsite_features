@@ -1,0 +1,52 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 13px 0;
+}
+
+.feature {
+  font-size: 20px;
+}
+
+.feature-title {
+  cursor: default;
+}
+
+.feature-title-has-subfeatures {
+  cursor: pointer;
+}
+
+.green-check {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.do-not-have {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.sad-face {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.has-subfeatures {
+  display: inline-block;
+  color: green;
+  font-size: 13px;
+  margin-left: 10px;
+  font-style: italic;
+  position: relative;
+  top: -7px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
